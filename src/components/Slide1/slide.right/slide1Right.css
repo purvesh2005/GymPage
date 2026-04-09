@@ -1,0 +1,13 @@
+.slide1Right{
+   
+    height:450px;
+    width:450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide1Right img{
+    width:100%;
+    height:100%;
+object-fit: cover;
+
+}

@@ -1,0 +1,44 @@
+.slide1Left{
+width:370px;
+
+}
+
+.slide1Left h5{
+background-color: rgba(35, 54, 73);
+color:white;
+display: inline-block;
+padding:8px 12px;
+border-radius: 8px;
+margin-bottom: 15px;
+
+}
+.slide1Left h1{
+color:white;
+margin-bottom: 15px;
+}
+.slide1Left h1 span{
+color:rgba(220, 65, 68);
+}
+.slide1Left p{
+    color:white;
+    margin-bottom: 15px;
+}
+
+.buttons .buttonExplore{
+    background-color:rgba(220, 65, 68) ;
+    color:white;
+    padding: 10px 30px;
+font-size: medium;
+font-weight: 700;
+border-radius: 5px;
+margin-right: 10px;
+}
+.buttons .buttonViewPlans{
+    background-color:transparent;
+    color:white;
+    padding: 10px 30px;
+font-size: medium;
+font-weight: 700;
+border-radius: 5px;
+border-color: white;
+}

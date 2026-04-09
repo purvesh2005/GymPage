@@ -1,0 +1,54 @@
+.Nav{
+    display:flex;
+    justify-content: space-between;
+padding: 30px 30px;
+    height:80px;
+    align-items: center;
+   
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left img{
+width:80px;
+height:80px;
+background-color: white;
+margin-right: 10px;
+}
+.left h1{
+    font-size: large;
+    font-weight: 700;
+}
+.left .text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.middle{
+    display: flex;
+   align-items: center;
+   gap:80px;
+}
+.middle h1{
+    font-size: large;
+    font-weight: 400;
+}
+.right1{
+    background-color: black;
+    color: white;
+     width:120px;
+    padding:15px 20px;
+    border-radius:50px;
+}
+.right2{
+    background-color: white;
+    color: black;
+    width:120px;
+    padding:15px 20px;
+    border-radius:50px;
+    border:none;
+    font-weight: 600;
+    font-size:medium;
+}
+

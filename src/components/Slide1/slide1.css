@@ -1,0 +1,10 @@
+.slide1{
+width:100%;
+height:560px;
+background-color: rgba(10, 31, 52);
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding-inline:15%;
+
+}
