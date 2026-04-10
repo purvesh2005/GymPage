@@ -1,7 +1,8 @@
 .slide2{
-    width:100%;
-    height:800px;
+    width: 100%;
+    height: 800px;
 }
+
 .slide2 .heading{
     display: flex;
     flex-direction: column;
@@ -9,12 +10,84 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 .slide2 .heading h5{
     font-weight: 500;
     margin: 8px;
-    font-size:medium;
+    font-size: medium;
 }
+
 .slide2 .heading h1{
     font-weight: 800;
-    font-size:xx-large;
+    font-size: xx-large;
+}
+
+.activities{
+    display: flex;
+    justify-content: center;
+}
+
+
+.activities .left img{
+     width: 270px;
+    height: 560px;
+    margin-right: 10px;
+    border-radius: 25px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.activities .mid{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.activities .midup{
+    display: flex;
+}
+.activities .midupleft img{
+    width: 260px;
+    height: 275px;
+    margin-bottom: 10px;
+     border-radius: 25px;
+      object-fit: cover;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.activities .midupright img{
+    width: 260px;
+    height: 275px;
+    margin-bottom: 10px;
+     border-radius: 25px;
+      object-fit: cover;
+    overflow: hidden;
+}
+
+.activities .middown img{
+    width: 530px;
+    height: 275px;
+     border-radius: 25px;
+      object-fit: cover;
+    overflow: hidden;
+}
+
+.activities .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.activities .rightup img{
+    width: 270px;
+    height: 275px;
+     margin-bottom: 10px;
+      border-radius: 25px;
+       object-fit: cover;
+    overflow: hidden;
+}
+
+.activities .rightdown img{
+    width: 270px;
+    height: 275px;
+     border-radius: 25px;
+      object-fit: cover;
+    overflow: hidden;
 }
