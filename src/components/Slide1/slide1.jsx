@@ -1,7 +1,7 @@
 import React from 'react'
 import"./slide1.css"
 import Slide1Left from './slide1.left/slide1Left'
-import Slide1Right from './slide.right/slide1Right'
+import Slide1Right from './slide1.right/slide1Right'
 
 const slide1 = () => {
   return (
