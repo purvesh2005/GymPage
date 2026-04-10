@@ -1,9 +1,12 @@
 .Nav{
+    position: fixed;
+    width:100%;
     display:flex;
     justify-content: space-between;
 padding: 30px 30px;
     height:80px;
     align-items: center;
+    background-color: white;
    
 }
 .left{
