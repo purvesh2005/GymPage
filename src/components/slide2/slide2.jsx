@@ -22,6 +22,9 @@ const slide2 = () => {
         <div className="activities">
            <div className="left">
             <img src={HIIT} alt="" />
+            <div className="text-overlay">
+              <h1>HIIT</h1>
+            </div>
            </div>
 
           
@@ -29,13 +32,22 @@ const slide2 = () => {
             <div className="midup">
                <div className="midupleft">
                  <img src={cardio} alt="" />
+                 <div className="text-overlay">
+              <h1>Cardio</h1>
+            </div>
                </div>
               <div className="midupright">
                  <img src={yoga} alt="" />
+                 <div className="text-overlay">
+              <h1>Yoga</h1>
+            </div>
               </div>
             </div>
             <div className="middown">
               <img src={gymWorkout} alt="" />
+              <div className="text-overlay">
+              <h1>Gym Workout</h1>
+            </div>
             </div>
            </div>
           
@@ -43,9 +55,15 @@ const slide2 = () => {
              <div className="right">
               <div className="rightup">
                 <img src={mma} alt="" />
+                <div className="text-overlay">
+              <h1>MMA</h1>
+            </div>
               </div>
               <div className="rightdown">
                 <img src={zumba} alt="" />
+                <div className="text-overlay">
+              <h1>Zumba</h1>
+            </div>
               </div>
              </div>
         </div>

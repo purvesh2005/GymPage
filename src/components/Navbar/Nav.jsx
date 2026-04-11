@@ -15,7 +15,7 @@ const Nav = () => {
     </div>
       <div class='middle'>
         <h1>Home</h1>
-        <h1>Contact us</h1>
+        <h1>Activities</h1>
         <h1>Location</h1>
         <h1>Reviews</h1>
       </div>

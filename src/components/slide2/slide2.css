@@ -27,15 +27,22 @@
     justify-content: center;
 }
 
+.activities .left{
+    position: relative;
 
+}
 .activities .left img{
-     width: 270px;
+     width: 300px;
     height: 560px;
     margin-right: 10px;
     border-radius: 25px;
     object-fit: cover;
     overflow: hidden;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
 }
+
+
 .activities .mid{
     display: flex;
     flex-direction: column;
@@ -43,51 +50,88 @@
 }
 .activities .midup{
     display: flex;
+    
+}
+.activities .midupleft{
+    position: relative;
 }
 .activities .midupleft img{
-    width: 260px;
+    width: 300px;
     height: 275px;
     margin-bottom: 10px;
      border-radius: 25px;
       object-fit: cover;
     overflow: hidden;
     margin-right: 10px;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
+}
+.activities .midupright{
+    position: relative;
 }
 .activities .midupright img{
-    width: 260px;
+    width: 300px;
     height: 275px;
     margin-bottom: 10px;
      border-radius: 25px;
       object-fit: cover;
     overflow: hidden;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
 }
-
+.activities .middown{
+    position: relative;
+}
 .activities .middown img{
-    width: 530px;
+    width: 610px;
     height: 275px;
      border-radius: 25px;
       object-fit: cover;
     overflow: hidden;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
 }
 
 .activities .right{
     display: flex;
     flex-direction: column;
+    
 }
-
+.activities .rightup{
+    position: relative;
+}
 .activities .rightup img{
-    width: 270px;
+    width: 300px;
     height: 275px;
      margin-bottom: 10px;
       border-radius: 25px;
        object-fit: cover;
     overflow: hidden;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
 }
-
+.activities .rightdown{
+    position: relative;
+}
 .activities .rightdown img{
-    width: 270px;
+    width: 300px;
     height: 275px;
      border-radius: 25px;
       object-fit: cover;
     overflow: hidden;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,1);
+}
+
+.text-overlay{
+    position: absolute;
+top:85%;
+left:50%;
+color: white;
+transform: translate(-50%,-50%);
+
+    
+}
+.text-overlay h1{
+    font-size: 40px;
 }
