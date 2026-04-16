@@ -1,0 +1,33 @@
+.slide4{
+    height:1000px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h1{
+    font-weight: 700;
+}
+
+.trainer1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.trainer1{
+    height:500px;
+    width:400px;
+
+   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+   padding: 20px;
+   border-radius: 20px;
+
+}
+.trainer1 img{
+    height:450px;
+    width:400px;
+    object-fit: cover;
+overflow: hidden;
+object-position: center;
+}
